@@ -1,0 +1,654 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(38, 58, 58);
+    padding: 10px 80px;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+}
+
+.navbar {
+    display: none;
+    width: 100%;
+    background-color: darkslategray;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    padding: 5px 200px;
+    position: absolute;
+    z-index: 1;
+
+}
+
+.position {
+    position: relative;
+}
+
+.navbar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.navbar i {
+    margin-top: 20px;
+}
+
+#check:checked~.four-ever {
+    display: flex;
+}
+
+.four-ever {
+    background-color: rgb(0, 255, 157);
+    width: 120px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    border-radius: 50px 0px 0px 50px;
+    box-shadow: 10px 10px 15px white;
+    position: absolute;
+    right: 25px;
+    z-index: 2;
+}
+
+
+.four-ever ul {
+    list-style: none;
+}
+
+.four-ever ul li a {
+    color: rgb(7, 31, 83);
+    font-size: 23px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    padding-bottom: 50px;
+
+}
+
+.left h2 {
+    color: white;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.right a {
+    margin-right: 40px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+
+}
+
+.hero-section {
+    background-color: rgb(16, 134, 65);
+    width: 100%;
+    height: 80vh;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute;
+    z-index: 2;*/
+}
+
+.border {
+    border: 4px solid black;
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.border img {
+    width: 150px;
+    height: 175px;
+    border-radius: 50%;
+    margin-bottom: 56px;
+}
+
+.hero-section h1 {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    margin-top: 15px;
+}
+
+.flex {
+    display: flex;
+    margin-top: 20px;
+}
+
+.befor-line,
+.after-line {
+    border: 1px solid white;
+    width: 80px;
+    margin: 0px 20px;
+}
+
+.hero-section p {
+    color: white;
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.PORTFOLIO {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.PORTFOLIO h2 {
+    align-items: center;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 23px;
+}
+
+.befor-line-2,
+.after-line-2 {
+    border: 1px solid white;
+    width: 80px;
+    margin: 0px 15px;
+}
+
+.bg-div {
+    width: 275px;
+    height: 200px;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color {
+    width: 150px;
+    height: 150px;
+    background-color: darkgreen;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.color img {
+    width: 100px;
+    height: 100px;
+}
+
+.bg-div-2 {
+    width: 275px;
+    height: 200px;
+    background-color: rgb(26, 146, 146);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-2 {
+    width: 150px;
+    height: 150px;
+    background-color: orangered;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.color-2 img {
+    width: 150px;
+    height: 100px;
+}
+
+.bg-div-3 {
+    width: 275px;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-3 {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(219, 168, 73);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.color-3 img {
+    width: 100px;
+    height: 100px;
+}
+
+.bg-div-4 {
+    width: 275px;
+    height: 200px;
+    background-color: rgb(25, 135, 163);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-4 {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(236, 95, 44);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.color-4 img {
+    width: 135px;
+    height: 120px;
+}
+
+.bg-div-5 {
+    width: 275px;
+    height: 200px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-5 {
+    width: 150px;
+    height: 150px;
+    background-color: gold;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.color-5 img {
+    width: 100px;
+    height: 100px;
+}
+
+.bg-div-6 {
+    width: 275px;
+    height: 200px;
+    background-color: rgb(218, 177, 101);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-6 {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(41, 58, 8);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.color-6 img {
+    width: 100px;
+    height: 100px;
+}
+
+.flex-div,
+.flex-div-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.ABOUT {
+    width: 100%;
+    background-color: rgb(16, 134, 65);
+    margin-top: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+.flex-ABOUT h2 {
+    color: white;
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.flex-ABOUT,
+.flex-CONTACT {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.label-1,
+.label-2 {
+    width: 250px;
+    color: white;
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.flex-label {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.free {
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.free p {
+    color: white;
+}
+
+.CONTACT {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.flex-CONTACT h2 {
+    color: black;
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.befor-line-3,
+.after-line-3 {
+    border: 1px solid black;
+    width: 80px;
+    margin: 0px 15px;
+}
+
+.flex1 {
+    display: flex;
+    margin-top: 20px;
+}
+
+#name,
+#email,
+#number,
+#Message {
+    width: 400px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.623);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 20px;
+}
+
+#send {
+    width: 50px;
+    padding: 10px 5px;
+    background-color: rgb(16, 134, 65);
+    color: white;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.flex-form {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.Web {
+    background-color: rgb(14, 31, 31);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 200px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+   
+}
+
+
+.LOCATION h3,
+.AROUND h3,
+.Freelancer h3 {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 10px;
+}
+
+.LOCATION h5 {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.face,
+.twitter,
+.linkedin,
+.codepen {
+    border: 2px solid white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3px;
+}
+
+.flex-link {
+    display: flex;
+    gap: 12px;
+}
+
+.Freelancer {
+    width: 250px;
+}
+
+.Freelancer p {
+    color: white;
+}
+
+.Freelancer p a {
+    color: aqua;
+}
+
+.footer {
+    background-color: rgb(11, 15, 1);
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px 0px;
+}
+
+@media(max-width:913px) {
+    .nav {
+        display: none;
+    }
+
+    header .navbar {
+        display: flex;
+    }
+
+    #check {
+        display: none;
+    }
+
+    .four-ever {
+        display: none;
+    }
+
+    .four-ever a {
+        color: white;
+    }
+
+    .four-ever ul {
+        list-style: none;
+    }
+
+    .four-ever ul a {
+        text-decoration: none;
+    }
+}
+
+
+
+@media(max-width:413px) {
+
+    .navbar {
+        width: 900px;
+    }
+
+    .hero-section p {
+        font-size: 27px;
+    }
+
+    .hero-section h1 {
+        font-size: 40px;
+    }
+
+    .PORTFOLIO h2,
+    .flex-ABOUT h2,
+    .flex-CONTACT h2 {
+        font-size: 40px;
+    }
+
+
+    .hero-section,
+    .ABOUT,
+    .CONTACT,
+    .PORT,
+    .Web,
+    .footer {
+        width: 900px;
+    }
+
+    .label-1 p,
+    .label-2 p {
+        font-size: 25px;
+    }
+
+
+}
+
+
+@media(max-width:220px) {
+    .hero-section p {
+        font-size: 30px;
+    }
+
+    .hero-section h1 {
+        font-size: 50px;
+    }
+
+    .PORTFOLIO h2,
+    .flex-ABOUT h2,
+    .flex-CONTACT h2 {
+        font-size: 50px;
+    }
+
+    #check {
+        display: none;
+    }
+
+    .four-ever {
+        display: none;
+    }
+
+    .four-ever {
+        margin-left: 30px;
+    }
+
+    .hero-section,
+    .PORT,
+    .ABOUT,
+    .CONTACT,
+    .Web,
+    .footer {
+        width: 900px;
+    }
+
+    .bg-div,
+    .bg-div-2,
+    .bg-div-3,
+    .bg-div-4,
+    .bg-div-5,
+    .bg-div-6 {
+        width: 300px;
+        height: 250px;
+    }
+
+    .color,
+    .color-2,
+    .color-3,
+    .color-4,
+    .color-5,
+    .color-6 {
+
+        width: 200px;
+        height: 200px;
+    }
+
+    .color img,
+    .color-2 img,
+    .color-3 img,
+    .color-4 img,
+    .color-5 img,
+    .color-6 img {
+
+        width: 120px;
+        height: 120px;
+    }
+
+    .label-1 p,
+    .label-2 p {
+        font-size: 35px;
+    }
+
+}
